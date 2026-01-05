@@ -1,3 +1,4 @@
+
 *{
   margin: 0px;
   padding: 0px;
@@ -27,6 +28,8 @@
 }
 
 .section-heading {
+  width: 827px;
+  margin: 0 auto;
   text-align: center;
 }
 .section-heading h2 {
@@ -45,7 +48,7 @@ header {
   background-color: #FFF8F3;
   background: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 23px 38px, bottom right;
   padding-top: 20px;
 }
 
@@ -127,4 +130,138 @@ nav .menu {
 }
 .about-info .info-card h4 {
   font-size: 20px;
+}
+
+ /* Section  skills  */
+
+ #skills {
+  width: 71%;
+  max-width: 1140px;
+  padding-top: 130px;
+  margin: 0 auto;
+ }
+
+#skills .skills-container .skill-cards {
+  display: flex;
+  max-width: 1140px;
+  gap: 24px;
+}
+
+#skills .skills-container .skill-cards .cards {
+  border: none;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 50px 0 hsla(0, 0%, 0%, 0.5)
+}
+#skills .skills-container .skill-cards .cards img {
+  height: 44px;
+  width: 44px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+#skills .skills-container .skill-cards .cards h3 {
+  font-size: 20;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#skills .skills-container .skill-cards .cards p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
+.text-centre{
+  text-align: center;
+}
+
+/* resume */
+#resume {
+  margin-top: 130px;
+}
+
+#resume .section-heading h2 {
+  margin-top: 130px;
+}
+
+#resume .resume-container {
+  display: flex;
+  gap: 24px;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 0px;
+}
+#resume .resume-container .resume-card {
+  max-width: 511px;
+  max-height: 175px;
+  padding-right: 10px ;
+}
+
+#resume .resume-container .head-title h2 {
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+#resume .resume-container .resume-card h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+#resume .resume-container .resume-card h4 {
+  font-size: 15px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+#resume .resume-container .resume-card p {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+#resume .resume-container .resume-card {
+  width: 511px;
+  height: 175px;
+}
+
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+footer .footer-container {
+  width: 71%;
+  max-width:1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container .social{
+  max-width: 562px;
+}
+.footer-container h2 {
+  color: #181818;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.footer-container p {
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px
+}
+
+.footer-container .icons a{
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"],.footer-container form textarea {
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
+  box-shadow: 0px 2px #181818a7;
 }
